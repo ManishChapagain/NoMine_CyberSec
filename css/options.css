@@ -1,3 +1,11 @@
+body{
+    background-color: lightgray;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
 .tablinks {
     border: 1px solid #ccc;
     color: black;
@@ -25,7 +33,7 @@
 
 .optcontainer {
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 3px solid black;
     font-size: 1.2em;
     color: #2b2b2b;
 }
@@ -51,14 +59,15 @@ a {
 .btn {
     padding: 0.7em;
     text-align: center;
-    background-color: #e2e2e2;
-    color: #505050;
+    background-color: darkcyan;
+    color: black;
     border-radius: 4px;
     cursor: pointer;
     border: 1px solid #b5b5b5;
 }
 
 input[type=text] {
+    background-color: yellowgreen;
     width: 50%;
     padding: 12px 12px;
     margin: 8px 0;
@@ -73,7 +82,7 @@ input[type=text] {
 }
 
 .btn:hover {
-    background-color: #efefef;
+    background-color: darkcyan;
 }
 
 select {
